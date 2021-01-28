@@ -1,0 +1,33 @@
+body{
+    background-color: turquoise;
+}
+
+.mb-app{
+    color: brown;
+}
+
+.mb-app h1{
+    border-bottom: 1px solid #999;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.mb-app li{
+    padding: 10px;
+    text-align: center;
+    list-style-position: inside;
+    color: navy;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.division{
+    float: right;
+}
+
+
+
+
+
+
+
