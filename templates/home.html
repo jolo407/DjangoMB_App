@@ -1,6 +1,18 @@
-<h1>Message board homepage</h1>
-<ul>
+{% extends 'base.html' %}
+
+{% load static %}
+
+{% block content %}
+<div class="container">
+    <div class="mb-app">
+    <h1> Message Board </h1>
+    <ul>
     {% for post in all_posts_list %}
     <li>{{ post.text }}</li>
     {% endfor %}
-</ul>
+    </ul>
+    <img class="ajudge" src="{% static 'AaronJudge.jpg' %}" style="max-width: 20%;">
+    <img class="division" src="{% static 'TheDivision.jpg' %}" style="max-width: 20%;">
+    </div>
+</div>
+{% endblock content %}
